@@ -9,8 +9,20 @@ let myArray = ['Marvin','Ferris','Brynn','Damian','Whitney','Leila','Frances','K
 ```
 
 ### Challenge
-Replace the [OBJECT NAME] text below with each object's name attribute from the new object array created above.
+In your HTML file, include in below div tag in the position as seen below:
+```
+<body>
+<div id="classwork"></div>
+<script src="index.js"></script>
+</body>
+```
+Using the array you created in the problem above, concatenate every element's name attribute to the [OBJECT NAME] position below. Make sure each element is no longer an array and concatenating each new string to a new variable.
 
 ```
-<h1 style="color:blue;background:red;text-shadow: -2px 2px 2px #000000;">[OBJECT NAME]</h1>
+<h1 style='color:blue;background:red;text-shadow: -2px 2px 2px #000000;'>[OBJECT NAME]</h1>
+```
+Lastly, assign the new string variable to the code below:
+
+```
+document.getElementById("classwork").innerHTML = [NEW STRING]
 ```
