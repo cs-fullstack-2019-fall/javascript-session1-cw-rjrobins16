@@ -29,10 +29,11 @@ myArray.forEach(lognewArray);
 
 function lognewArray(){
 myArray.push(FacebookUsersArray);
+} // you didn't close your function
 
 
 
-let u1 = new FacebookUser("test");
+let u1 = new FacebookUser("test"); // create an object FOR EACH item in the array
 
 //console.log(myArray);
 
